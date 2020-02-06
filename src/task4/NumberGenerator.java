@@ -6,19 +6,19 @@ public class NumberGenerator {
     public void displayNumbersWithWhile(){
         double i = 0;
         System.out.println("Petla While: ");
-        while(i <= max){
-            System.out.println(i);
+        while(i <= max+ 0.1){
+            System.out.printf("%.1f; ", i);
             i += 0.1;
         }
     }
 
     public void displayNumbersWithDoWhile(){
         double i = 0;
-        System.out.println("Petla Do_While: ");
+        System.out.println("\nPetla Do_While: ");
        do {
-           System.out.println(i);
+           System.out.printf("%.1f; ", i);
            i += 0.1;
        }
-        while(i <= max);
+        while(i <= max + 0.1);
     }
 }
